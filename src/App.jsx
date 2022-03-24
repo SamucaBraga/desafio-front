@@ -25,7 +25,7 @@ export default function App() {
       <nav className="bg-white shadow dark:bg-gray-800">
         <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
           <a
-            href="#"
+            href="/"
             onClick={() => setSelected("SWAPI")}
             className={`${
               selected === "SWAPI" && "border-primary border-b-2"
@@ -35,7 +35,7 @@ export default function App() {
           </a>
 
           <a
-            href="#"
+            href="/"
             onClick={() => show("planets", setPlanets)}
             className={`${
               selected === "planets" && "border-primary border-b-2"
@@ -45,7 +45,7 @@ export default function App() {
           </a>
 
           <a
-            href="#"
+            href="/"
             onClick={() => show("people", setpeople)}
             className={`${
               selected === "people" && "border-primary border-b-2"
