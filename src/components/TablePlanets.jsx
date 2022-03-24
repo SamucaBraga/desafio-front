@@ -11,7 +11,7 @@ export default function TablePlanets({planets}) {
                     scope="col"
                     className="px-6 py-3 text-left text-xs font-medium text-primary uppercase tracking-wider"
                   >
-                    Name
+                    Nome
                   </th>
                   <th
                     scope="col"

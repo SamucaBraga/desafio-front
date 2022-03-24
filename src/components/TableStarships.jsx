@@ -11,7 +11,7 @@ export default function TableStarships({starships}) {
                       scope="col"
                       className="px-6 py-3 text-left text-xs font-medium text-primary uppercase tracking-wider"
                     >
-                      Name
+                      Nome
                     </th>
                     <th
                       scope="col"
@@ -34,7 +34,7 @@ export default function TableStarships({starships}) {
                         {item.name}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        {item.terrain}
+                        {item.model}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                         {item.cost_in_credits}
