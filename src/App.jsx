@@ -24,35 +24,32 @@ export default function App() {
     <>
       <nav className="bg-white shadow dark:bg-gray-800">
         <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
-          <a
-            href="/"
+          <button
             onClick={() => setSelected("SWAPI")}
             className={`${
               selected === "SWAPI" && "border-primary border-b-2"
             }  transition-colors duration-200 transform dark:text-gray-200 mx-1.5 sm:mx-6`}
           >
             SWAPI
-          </a>
+          </button>
 
-          <a
-            href="/"
+          <button
             onClick={() => show("planets", setPlanets)}
             className={`${
               selected === "planets" && "border-primary border-b-2"
             }  transition-colors duration-200 transform dark:text-gray-200 mx-1.5 sm:mx-6`}
           >
             Planetas
-          </a>
+          </button>
 
-          <a
-            href="/"
+          <button
             onClick={() => show("people", setpeople)}
             className={`${
               selected === "people" && "border-primary border-b-2"
             }  transition-colors duration-200 transform dark:text-gray-200 mx-1.5 sm:mx-6`}
           >
             Pessoas
-          </a>
+          </button>
         </div>
       </nav>
 
